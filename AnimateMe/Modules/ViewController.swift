@@ -16,8 +16,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         animationView = .init(name: "dance")
         animationView?.frame = view.bounds
+        animationView?.loopMode = .loop
         view.addSubview(animationView!)
-        
+        animationView?.play()
         
     }
 
