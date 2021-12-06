@@ -6,8 +6,21 @@
 //
 
 import UIKit
+import Lottie
 
 class DownloadViewController: UIViewController{
+    
+    @IBOutlet weak var animationView: AnimationView!
+    
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        animationView.loopMode = .loop
+        animationView.play()
+        
+    }
     
     
 }
