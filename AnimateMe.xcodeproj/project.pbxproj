@@ -58,16 +58,40 @@
 		313958B0275DB01A0082BE4C /* AnimateMe */ = {
 			isa = PBXGroup;
 			children = (
-				313958B1275DB01A0082BE4C /* AppDelegate.swift */,
-				313958B3275DB01A0082BE4C /* SceneDelegate.swift */,
-				313958B5275DB01A0082BE4C /* ViewController.swift */,
-				313958B7275DB01A0082BE4C /* Main.storyboard */,
-				313958BD275DB01A0082BE4C /* Assets.xcassets */,
-				313958BF275DB01A0082BE4C /* LaunchScreen.storyboard */,
-				313958C2275DB01A0082BE4C /* Info.plist */,
+				313958C9275DB0660082BE4C /* Modules */,
+				313958C8275DB0410082BE4C /* Supporting Files */,
+				313958CA275DB0820082BE4C /* Assests */,
 				313958BA275DB01A0082BE4C /* AnimateMe.xcdatamodeld */,
 			);
 			path = AnimateMe;
+			sourceTree = "<group>";
+		};
+		313958C8275DB0410082BE4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				313958B1275DB01A0082BE4C /* AppDelegate.swift */,
+				313958B3275DB01A0082BE4C /* SceneDelegate.swift */,
+				313958BF275DB01A0082BE4C /* LaunchScreen.storyboard */,
+				313958C2275DB01A0082BE4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		313958C9275DB0660082BE4C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				313958B5275DB01A0082BE4C /* ViewController.swift */,
+				313958B7275DB01A0082BE4C /* Main.storyboard */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		313958CA275DB0820082BE4C /* Assests */ = {
+			isa = PBXGroup;
+			children = (
+				313958BD275DB01A0082BE4C /* Assets.xcassets */,
+			);
+			path = Assests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
