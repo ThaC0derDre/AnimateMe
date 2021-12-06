@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         animationView?.loopMode = .loop
         view.addSubview(animationView!)
         animationView?.play()
+        view.sendSubviewToBack(animationView!)
         
     }
 
