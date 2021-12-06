@@ -10,11 +10,15 @@ import Lottie
 
 class ViewController: UIViewController {
 
-    
+    private var animationView: AnimationView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        animationView = .init(name: "dance")
+        animationView?.frame = view.bounds
+        view.addSubview(animationView!)
+        
+        
     }
 
 

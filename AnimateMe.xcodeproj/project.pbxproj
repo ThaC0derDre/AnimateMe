@@ -14,8 +14,8 @@
 		313958BC275DB01A0082BE4C /* AnimateMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 313958BA275DB01A0082BE4C /* AnimateMe.xcdatamodeld */; };
 		313958BE275DB01A0082BE4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 313958BD275DB01A0082BE4C /* Assets.xcassets */; };
 		313958C1275DB01A0082BE4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 313958BF275DB01A0082BE4C /* LaunchScreen.storyboard */; };
-		313958CC275DC5670082BE4C /* target.json in Resources */ = {isa = PBXBuildFile; fileRef = 313958CB275DC5670082BE4C /* target.json */; };
-		313958CE275DC5DE0082BE4C /* progress.json in Resources */ = {isa = PBXBuildFile; fileRef = 313958CD275DC5DE0082BE4C /* progress.json */; };
+		313958D0275DC8E50082BE4C /* download.json in Resources */ = {isa = PBXBuildFile; fileRef = 313958CF275DC8E50082BE4C /* download.json */; };
+		313958D2275DC9680082BE4C /* dance.json in Resources */ = {isa = PBXBuildFile; fileRef = 313958D1275DC9680082BE4C /* dance.json */; };
 		D6055398FBE12C0A277E64C3 /* Pods_AnimateMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51BA2E96E5FAD68FBD378F8 /* Pods_AnimateMe.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,8 +31,8 @@
 		313958BD275DB01A0082BE4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		313958C0275DB01A0082BE4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		313958C2275DB01A0082BE4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		313958CB275DC5670082BE4C /* target.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = target.json; sourceTree = "<group>"; };
-		313958CD275DC5DE0082BE4C /* progress.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = progress.json; sourceTree = "<group>"; };
+		313958CF275DC8E50082BE4C /* download.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = download.json; sourceTree = "<group>"; };
+		313958D1275DC9680082BE4C /* dance.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dance.json; sourceTree = "<group>"; };
 		E51BA2E96E5FAD68FBD378F8 /* Pods_AnimateMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimateMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -101,8 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				313958BD275DB01A0082BE4C /* Assets.xcassets */,
-				313958CB275DC5670082BE4C /* target.json */,
-				313958CD275DC5DE0082BE4C /* progress.json */,
+				313958CF275DC8E50082BE4C /* download.json */,
+				313958D1275DC9680082BE4C /* dance.json */,
 			);
 			path = Assests;
 			sourceTree = "<group>";
@@ -185,9 +185,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				313958C1275DB01A0082BE4C /* LaunchScreen.storyboard in Resources */,
-				313958CE275DC5DE0082BE4C /* progress.json in Resources */,
+				313958D0275DC8E50082BE4C /* download.json in Resources */,
 				313958BE275DB01A0082BE4C /* Assets.xcassets in Resources */,
-				313958CC275DC5670082BE4C /* target.json in Resources */,
+				313958D2275DC9680082BE4C /* dance.json in Resources */,
 				313958B9275DB01A0082BE4C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
