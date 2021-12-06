@@ -16,6 +16,8 @@
 		313958C1275DB01A0082BE4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 313958BF275DB01A0082BE4C /* LaunchScreen.storyboard */; };
 		313958D0275DC8E50082BE4C /* download.json in Resources */ = {isa = PBXBuildFile; fileRef = 313958CF275DC8E50082BE4C /* download.json */; };
 		313958D2275DC9680082BE4C /* dance.json in Resources */ = {isa = PBXBuildFile; fileRef = 313958D1275DC9680082BE4C /* dance.json */; };
+		313958D5275DD0BB0082BE4C /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313958D4275DD0BB0082BE4C /* DownloadViewController.swift */; };
+		313958D7275DD0C90082BE4C /* DownloadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 313958D6275DD0C90082BE4C /* DownloadViewController.xib */; };
 		D6055398FBE12C0A277E64C3 /* Pods_AnimateMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51BA2E96E5FAD68FBD378F8 /* Pods_AnimateMe.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		313958C2275DB01A0082BE4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		313958CF275DC8E50082BE4C /* download.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = download.json; sourceTree = "<group>"; };
 		313958D1275DC9680082BE4C /* dance.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dance.json; sourceTree = "<group>"; };
+		313958D4275DD0BB0082BE4C /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		313958D6275DD0C90082BE4C /* DownloadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DownloadViewController.xib; sourceTree = "<group>"; };
 		E51BA2E96E5FAD68FBD378F8 /* Pods_AnimateMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimateMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -91,6 +95,7 @@
 		313958C9275DB0660082BE4C /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				313958D3275DD0A10082BE4C /* Download */,
 				313958B5275DB01A0082BE4C /* ViewController.swift */,
 				313958B7275DB01A0082BE4C /* Main.storyboard */,
 			);
@@ -105,6 +110,15 @@
 				313958D1275DC9680082BE4C /* dance.json */,
 			);
 			path = Assests;
+			sourceTree = "<group>";
+		};
+		313958D3275DD0A10082BE4C /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				313958D4275DD0BB0082BE4C /* DownloadViewController.swift */,
+				313958D6275DD0C90082BE4C /* DownloadViewController.xib */,
+			);
+			path = Download;
 			sourceTree = "<group>";
 		};
 		4278CE2480FF9419FE0A7C6C /* Pods */ = {
@@ -186,6 +200,7 @@
 			files = (
 				313958C1275DB01A0082BE4C /* LaunchScreen.storyboard in Resources */,
 				313958D0275DC8E50082BE4C /* download.json in Resources */,
+				313958D7275DD0C90082BE4C /* DownloadViewController.xib in Resources */,
 				313958BE275DB01A0082BE4C /* Assets.xcassets in Resources */,
 				313958D2275DC9680082BE4C /* dance.json in Resources */,
 				313958B9275DB01A0082BE4C /* Main.storyboard in Resources */,
@@ -244,6 +259,7 @@
 				313958B6275DB01A0082BE4C /* ViewController.swift in Sources */,
 				313958B2275DB01A0082BE4C /* AppDelegate.swift in Sources */,
 				313958B4275DB01A0082BE4C /* SceneDelegate.swift in Sources */,
+				313958D5275DD0BB0082BE4C /* DownloadViewController.swift in Sources */,
 				313958BC275DB01A0082BE4C /* AnimateMe.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

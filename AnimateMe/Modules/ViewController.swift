@@ -23,6 +23,11 @@ class ViewController: UIViewController {
         
     }
 
-
+    @IBAction func openDownload(_ sender: UIButton) {
+        let viewController = DownloadViewController(nibName: "DownloadViewController", bundle: nil)
+        
+        present(viewController, animated: true)
+    }
+    
 }
 
